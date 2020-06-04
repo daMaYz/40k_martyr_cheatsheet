@@ -35,6 +35,7 @@ class Psalm:
 	def writePsalmHtml(self):
 		writer = open("./psalmPages/" + self.name + ".html", "w+")
 		writer.write("<html><head><title>" + self.name + "</title></head><body>")
+		writer.write("<a href=\"../index.html\">mainPage</a>")
 		writer.write("<h1>" + self.name + "</h1>")
 		writer.write(self.getImgTag("..") + "<br><br>")
 		writer.write(self.effect + "<br><br><h3>Children</h3>")
