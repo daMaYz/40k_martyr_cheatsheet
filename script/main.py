@@ -1,55 +1,39 @@
 #!/usr/bin/python
 import os
+from utils import loadTemplate, getDefaultBgColor, BG
 from psalm import Psalm
+from doctrine import Doctrine
+PLACEHOLDER_BGCOLOR = "BGCOLOR_HERE"
+PLACEHOLDER_PSALMS = "PSALMS_HERE"
+PLACEHOLDER_EFFECTS = "EFFECTS_HERE"
+PLACEHOLDER_CONTENT = "CONTENT_HERE"
 
-	
-def replaceAll( line ):
-	for psalm in Psalm.psalmList:
-		if psalm.name in line:
-			print("checking: " + psalm.name)
-			line = line.replace(psalm.name, psalm.getImgTag("."))
-	print("--------")
-	return line
-			
-def buildNewLine(line):
-	index = line.find(">")
-	newLine = line[:index+1]	#open td and stuff
-	content = line[index+1:-6]
-	
-	newLine += replaceAll(content)	# newContent
-	newLine += "<br>" + content		# oldContent
-	newLine += "</td>\r\n"
-	
-	return newLine
-	
-	
+TEMPLATE_ROW = loadTemplate("tr_template.html")
+TEMPLATE_INDEX = loadTemplate("index_template.html")
 
+def getBgColor(lvl):
+	return str(BG[0] + 10 * lvl) + ", " + str(BG[1] + 10 * lvl) + ", " + str(BG[2] + 10 * lvl)
 
-## read original file
-reader = open("./40kPsalm_original.html", "r")
-lines = reader.readlines() 
-newLines = [None] * len(lines)
-counter = 0
+def generateRowForDoctrine(doc):
+	row = TEMPLATE_ROW
+	row = row.replace(PLACEHOLDER_BGCOLOR, getBgColor(doc.level))
+	row = row.replace(PLACEHOLDER_PSALMS, doc.getChildrenAsHtml())
+	row = row.replace(PLACEHOLDER_EFFECTS, doc.getFullEffect())
+	return row
 
-for line in lines: 
-	newLine = line
-	for psalm in Psalm.psalmList:
-		if psalm.name in newLine:
-			newLine = buildNewLine(line)
-			break
-	newLines[counter] = newLine
-	counter += 1
-			
-del reader
-
-## write file
-writer = open("./index.html", "w+")
-for newLine in newLines: 
-	writer.write(newLine)	
-
-writer.close()
-
-## generate subpages
+## generate subpages for psalms
 for psalm in Psalm.psalmList:
 	psalm.writePsalmHtml()
-	print(psalm.getImgTag("."))
+	
+content = ""
+for i in range(1, 5):
+	for doc in Doctrine.getAll(i):
+		content += generateRowForDoctrine(doc) + "\n"
+		
+index = TEMPLATE_INDEX
+index = index.replace(PLACEHOLDER_CONTENT, content)
+index = index.replace(PLACEHOLDER_BGCOLOR, getDefaultBgColor())
+
+writer = open("index.html", "w+")
+writer.write(index)
+writer.close()
