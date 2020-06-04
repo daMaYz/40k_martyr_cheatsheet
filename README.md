@@ -1,1 +1,1 @@
-[CheatSheet](https://github.com/daMaYz/40k_martyr_cheatsheet/blob/master/index.html)
+[CheatSheet](https://daMaYz.github.io/40k_martyr_cheatsheet)
