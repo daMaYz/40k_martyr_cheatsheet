@@ -1,1 +1,109 @@
-/* You can add global styles to this file, and also import other style files */
+/* BASIC STYLES */
+body {
+	background: #323232;
+	color: #919191;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.vCenter {
+	display: flex;
+	align-items: center
+}
+
+.psalmContainer {
+	/*	text-align: center;
+	display: inline-block;
+ 	width: 60px;
+	height: 100px;
+	background: #413212;*/
+	padding-top: 5px;
+	padding-bottom: 20px;
+	display: inline-block;
+	width: 120px;
+	height: 100px;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.psalmSized {
+	width: 120px;
+}
+
+.center {
+	text-align: center;
+}
+
+.psalmOuterContainer {
+	display: inline-block;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+/*		background: #113212;*/
+}
+
+.indented {
+	/* margin-left: 5%; */
+	
+}
+
+input {
+	border: #323132;
+	background: #323232;
+	color: #919191;
+}
+
+table, th, td {
+	text-align: left;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.bg-red {
+	background: red;
+}
+
+.bg-blue {
+	background: blue;
+}
+
+.bg-green {
+	background: green;
+}
+
+h1, h2, h3, h4, p {
+	color: #919191;
+}
+
+.divider {
+	width: 5px;
+	height: auto;
+	display: inline-block;
+}
+
+/* PRIMENG OVERRIDES */
+body .ui-tabmenu .ui-tabmenu-nav {
+	padding: 0;
+	background: transparent;
+	border-bottom: 0px solid #007ad9;
+}
+
+.ui-colorpicker-panel {
+	background: #191919;
+}
+
+.ui-fieldset-legend-text {
+	font-size: 32px;
+}
+
+body .ui-fieldset {
+	border: 1px solid #585858;
+}
+
+body .ui-messages.ui-messages-error {
+	background-color: #612536;
+}

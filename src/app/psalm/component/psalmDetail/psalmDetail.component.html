@@ -1,0 +1,21 @@
+<ng-container *ngIf="psalm">
+	<h1>{{ psalm.name }}</h1>
+	<img src="{{psalm.getImgFile()}}" [title]="psalm.name">
+	<br>
+	{{ psalm.effect }}
+	<br>
+	<br>
+	<h4>Made of</h4>
+	<div class="psalmOuterContainer">
+		<ng-container *ngFor="let pre of psalm.predecessor | keyvalue">
+			<psalmContainer [psalm]="pre.value"></psalmContainer>
+		</ng-container>
+	</div>
+	<br>
+	<h4>Used for</h4>
+	<div class="psalmOuterContainer">
+		<ng-container *ngFor="let suc of psalm.successor | keyvalue">
+			<psalmContainer [psalm]="suc.value"></psalmContainer>
+		</ng-container>
+	</div>
+</ng-container>

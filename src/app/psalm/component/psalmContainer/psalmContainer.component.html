@@ -1,0 +1,9 @@
+<div class="psalmContainer">	
+	<img src="{{psalm.getImgFile()}}" [title]="psalm.name">
+	<br>
+	<a [routerLink]="['/psalm/detail/', psalm.getId()]">
+		<span class="psalmSized">
+			{{psalm.name}}
+		</span>
+	</a>
+</div>

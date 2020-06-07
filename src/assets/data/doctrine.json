@@ -1,0 +1,490 @@
+[
+	{
+		"effect": "All Warp Damage becomes Armour Breaking",
+		"children": [
+			"Terminus Psalm",
+			"Iron Psalm",
+			"Technomartyr Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+50% Damage and +30 Dodge while in Surprise state",
+		"children": [
+			"Hermeticon Psalm",
+			"Galvanic Psalm",
+			"Volkite Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "100% Physical Damage is converted to Warp DamageGain +20% Warp Damage",
+		"children": [
+			"Hermeticon Psalm",
+			"Galvanic Psalm",
+			"Iron Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "Melee attacks against Energy Shield reflect 100% Damage to the attacker",
+		"children": [
+			"Voltaic Psalm",
+			"Voltaic Psalm",
+			"Technomartyr Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "Bleed status on enemies causes 100% Damage while they are near the hero",
+		"children": [
+			"Terminus Psalm",
+			"Haemo-drain Psalm",
+			"Volkite Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "Each kill halves the remaining Cooldown of skills",
+		"children": [
+			"Galvanic Psalm",
+			"Iron Psalm",
+			"Terminus Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "10% of all DoT Damage caused is gained as Suppression",
+		"children": [
+			"Volkite Psalm",
+			"Terminus Psalm",
+			"Phosphoenic Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+50% Grenade and Mine Damage",
+		"children": [
+			"Static-burst Psalm",
+			"Galvanic Psalm",
+			"Iron Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+50% Minion HP",
+		"children": [
+			"Emanatus Psalm",
+			"Galvanic Psalm",
+			"Volkite Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "Critical Hit Chance is reduced to zero but weapon base damage is increased by 30%",
+		"children": [
+			"Terminus Psalm",
+			"Technomartyr Psalm",
+			"Uncreator Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+50% Heat Damage",
+		"children": [
+			"Phosphoenic Psalm",
+			"Volkite Psalm",
+			"Hypergheist Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+50% Physical Damage",
+		"children": [
+			"Emanatus Psalm",
+			"Electro-haze Psalm",
+			"Iron Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+50% Warp Damage",
+		"children": [
+			"Uncreator Psalm",
+			"Binharic Psalm",
+			"Static-burst Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "Killing a Shocked enemy creates an explosion causing Shock and dealing damage equal to Damage from the killing blow",
+		"children": [
+			"Nova Psalm",
+			"Volkite Psalm",
+			"Transonic Psalm"
+		],
+		"level": 1
+	},
+	{
+		"effect": "+100% Heat Damage",
+		"children": [
+			"Phosphoenic Psalm",
+			"Binharic Psalm",
+			"Volkite Psalm",
+			"Terminus Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Physical Damage",
+		"children": [
+			"Haemo-drain Psalm",
+			"Animus Psalm",
+			"Aegis Psalm",
+			"Uncreator Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Warp Damage",
+		"children": [
+			"Neuralis Psalm",
+			"Transonic Psalm",
+			"Hypergheist Psalm",
+			"Phosphoenic Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "Reduces Damage Reflect from enemies by 80%",
+		"children": [
+			"Aegis Psalm",
+			"Voltaic Psalm",
+			"Hypergheist Psalm",
+			"Technomartyr Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "Energy Shield HP is doubled but Maximum HP is reduced to 10%",
+		"children": [
+			"Aegis Psalm",
+			"Hypergheist Psalm",
+			"Shroud Psalm",
+			"Nova Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "Creates a damaging aura around the hero dealing (Base DMG*10%/sec) Heat damage",
+		"children": [
+			"Phosphoenic Psalm",
+			"Technomartyr Psalm",
+			"Neuralis Psalm",
+			"Binharic Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "Combo attacks deal 300% increased Damage",
+		"children": [
+			"Neuralis Psalm",
+			"Transonic Psalm",
+			"Terminus Psalm",
+			"Shroud Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "200% bonus to class resource recharge rate",
+		"children": [
+			"Galvanic Psalm",
+			"Icarus Psalm",
+			"Phosphoenic Psalm",
+			"Hypergheist Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "All Fleshbane attacks also cause Bleed",
+		"children": [
+			"Transonic Psalm",
+			"Haemo-drain Psalm",
+			"Neuralis Psalm",
+			"Volkite Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "All Critical hits also Stun enemies",
+		"children": [
+			"Iron Psalm",
+			"Emanatus Psalm",
+			"Ordinatus Psalm",
+			"Binharic Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "All AoE attacks affect a 30% smaller area but gain +150% Damage",
+		"children": [
+			"Aegis Psalm",
+			"Neuralis Psalm",
+			"Iron Psalm",
+			"Uncreator Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "All Heat type attacks have a 10% chance to Ignite enemies as well",
+		"children": [
+			"Neuralis Psalm",
+			"Hypergheist Psalm",
+			"Phosphoenic Psalm",
+			"Galvanic Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+50% Minion Damage",
+		"children": [
+			"Ordinatus Psalm",
+			"Transonic Psalm",
+			"Phosphoenic Psalm",
+			"Hermeticon Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Damage to all Rifle Skills",
+		"children": [
+			"Hyper-rad Psalm",
+			"Terminus Psalm",
+			"Uncreator Psalm",
+			"Aegis Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Damage to all Pistol Skills",
+		"children": [
+			"Static-burst Psalm",
+			"Phosphoenic Psalm",
+			"Iron Psalm",
+			"Hypergheist Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Damage to all Heavy Weapon Skills",
+		"children": [
+			"Shroud Psalm",
+			"Icarus Psalm",
+			"Static-burst Psalm",
+			"Hermeticon Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Damage to all One-Handed Melee Weapon Skills",
+		"children": [
+			"Ordinatus Psalm",
+			"Shroud Psalm",
+			"Emanatus Psalm",
+			"Voltaic Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+100% Damage to all Two-Handed Melee Weapon Skills",
+		"children": [
+			"Transonic Psalm",
+			"Voltaic Psalm",
+			"Hyper-rad Psalm",
+			"Animus Psalm"
+		],
+		"level": 2
+	},
+	{
+		"effect": "+50% Heat Damage and Heat Resistance of enemies is halved",
+		"children": [
+			"Uncreator Psalm",
+			"Phosphoenic Psalm",
+			"Icarus Psalm",
+			"Ordinatus Psalm",
+			"Binharic Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "+50% Physical Damage and Physical Resistance of enemies is halved",
+		"children": [
+			"Hyper-rad Psalm",
+			"Haemo-drain Psalm",
+			"Ordinatus Psalm",
+			"Technomartyr Psalm",
+			"Shroud Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "+50% Warp Damage and Warp Resistance of enemies is halved",
+		"children": [
+			"Animus Psalm",
+			"Electro-haze Psalm",
+			"Voltagheist Psalm",
+			"Nova Psalm",
+			"Shroud Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "200% DoT duration",
+		"children": [
+			"Hyper-rad Psalm",
+			"Haemo-drain Psalm",
+			"Binharic Psalm",
+			"Hermeticon Psalm",
+			"Voltagheist Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "Each vulnerability stack has a 300% increased effect on DoT effects",
+		"children": [
+			"Technomartyr Psalm",
+			"Haemo-drain Psalm",
+			"Icarus Psalm",
+			"Static-burst Psalm",
+			"Uncreator Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "All skills that have Spread have their spread reduced",
+		"children": [
+			"Ordinatus Psalm",
+			"Neuralis Psalm",
+			"Animus Psalm",
+			"Hermeticon Psalm",
+			"Emanatus Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "+30 HP/hit and Energy Shield HP/hit",
+		"children": [
+			"Voltaic Psalm",
+			"Aegis Psalm",
+			"Hermeticon Psalm",
+			"Shroud Psalm",
+			"Emanatus Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "Below 10% HP, the hero becomes ethereal and gains 50% Movement Speed for 3 seconds (can only activate once every 10 seconds)",
+		"children": [
+			"Technomartyr Psalm",
+			"Hypergheist Psalm",
+			"Shroud Psalm",
+			"Nova Psalm",
+			"Galvanic Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "Inflicting a Burn DoT on an enemy also puts Burn DoT on nearby enemies",
+		"children": [
+			"Terminus Psalm",
+			"Phosphoenic Psalm",
+			"Icarus Psalm",
+			"Phosphoenic Psalm",
+			"Volkite Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "Inflicting a Poison DoT on an enemy also puts Poison DoT on nearby enemies",
+		"children": [
+			"Hyper-rad Psalm",
+			"Hyper-rad Psalm",
+			"Transonic Psalm",
+			"Voltagheist Psalm",
+			"Hermeticon Psalm"
+		],
+		"level": 3
+	},
+	{
+		"effect": "+200% Damage against Shocked, Slowed or Stunned enemies",
+		"children": [
+			"Static-burst Psalm",
+			"Static-burst Psalm",
+			"Nova Psalm",
+			"Transonic Psalm",
+			"Emanatus Psalm",
+			"Transonic Psalm"
+		],
+		"level": 4
+	},
+	{
+		"effect": "50% of all Damage is substracted from Suppression instead of HP",
+		"children": [
+			"Hermeticon Psalm",
+			"Voltagheist Psalm",
+			"Galvanic Psalm",
+			"Electro-haze Psalm",
+			"Animus Psalm",
+			"Shroud Psalm"
+		],
+		"level": 4
+	},
+	{
+		"effect": "Causing Shock on an enemy creates an explosion dealing halved Damage and Shock to nearby enemies",
+		"children": [
+			"Transonic Psalm",
+			"Nova Psalm",
+			"Icarus Psalm",
+			"Aegis Psalm",
+			"Animus Psalm",
+			"Technomartyr Psalm"
+		],
+		"level": 4
+	},
+	{
+		"effect": "+100% Suppression regeneration and +10% Damage Reduction per second while channeling skills (maximum +40% Damage Reduction)",
+		"children": [
+			"Aegis Psalm",
+			"Voltagheist Psalm",
+			"Voltaic Psalm",
+			"Technomartyr Psalm",
+			"Shroud Psalm",
+			"Transonic Psalm"
+		],
+		"level": 4
+	},
+	{
+		"effect": "+20% Damage bonus on Hit Taken for 3 seconds (maximum 300%)",
+		"children": [
+			"Nova Psalm",
+			"Haemo-drain Psalm",
+			"Technomartyr Psalm",
+			"Hypergheist Psalm",
+			"Hermeticon Psalm",
+			"Binharic Psalm"
+		],
+		"level": 4
+	},
+	{
+		"effect": "For each projectile with Physical Damage, two additional projectiles are created in a 10\u00b0 cone but skill damage is halved",
+		"children": [
+			"Ordinatus Psalm",
+			"Neuralis Psalm",
+			"Terminus Psalm",
+			"Galvanic Psalm",
+			"Terminus Psalm",
+			"Icarus Psalm"
+		],
+		"level": 4
+	}
+]

@@ -1,0 +1,35 @@
+
+<p-table [value]="filteredDoctrines" [rowHover]="true" class="table-hover">
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 50%;">
+                <input type="text" (input)="filter($event.target.value, 'children')" placeholder="filter children">
+            </th>
+            <th>
+                <input type="text" (input)="filter($event.target.value, 'effect')" placeholder="filter effect">
+            </th>
+            <th>
+                <input type="text" (input)="filter($event.target.value, 'subEffect')" placeholder="filter subEffect">
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-doctrine let-index="rowIndex">
+        <tr>
+            <td>
+            	<div class="psalmOuterContainer center">
+					<psalmContainer [psalm]="child" *ngFor="let child of doctrine.children"></psalmContainer>
+				</div>
+            </td>
+            <td>
+                <h3>{{doctrine.effect}}</h3>
+            </td>
+            <td>
+				<ul>
+				  <li *ngFor="let child of doctrine.children">
+				  	{{child.effect}}
+				  </li>
+				</ul>
+            </td>
+        </tr>
+    </ng-template>
+</p-table>

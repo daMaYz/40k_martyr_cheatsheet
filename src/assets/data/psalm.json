@@ -1,0 +1,332 @@
+[
+	{
+		"name": "Hermeticon Psalm",
+		"effect": "+3% DMG reduce upon kill",
+		"predecessor": [],
+		"successor": [
+			"Volkite Psalm",
+			"Hypergheist Psalm"
+		]
+	},
+	{
+		"name": "Terminus Psalm",
+		"effect": "+5% DMG upon kill",
+		"predecessor": [],
+		"successor": [
+			"Volkite Psalm",
+			"Static-burst Psalm"
+		]
+	},
+	{
+		"name": "Voltaic Psalm",
+		"effect": "+50 Energy Shield Charge and +50 to Energy Shield upon kill",
+		"predecessor": [],
+		"successor": [
+			"Static-burst Psalm",
+			"Electro-haze Psalm"
+		]
+	},
+	{
+		"name": "Galvanic Psalm",
+		"effect": "5% chance upon kill to reset all cooldowns",
+		"predecessor": [],
+		"successor": [
+			"Electro-haze Psalm",
+			"Technomartyr Psalm"
+		]
+	},
+	{
+		"name": "Iron Psalm",
+		"effect": "1% Crit Chance & +1 Crit Power for 2 seconds upon kill",
+		"predecessor": [],
+		"successor": [
+			"Technomartyr Psalm",
+			"Hypergheist Psalm"
+		]
+	},
+	{
+		"name": "Volkite Psalm",
+		"effect": "+1 sec DoT duration",
+		"predecessor": [
+			"Hermeticon Psalm",
+			"Terminus Psalm"
+		],
+		"successor": [
+			"Emanatus Psalm",
+			"Uncreator Psalm"
+		]
+	},
+	{
+		"name": "Static-burst Psalm",
+		"effect": "+1 sec Slow / Shock duration",
+		"predecessor": [
+			"Terminus Psalm",
+			"Voltaic Psalm"
+		],
+		"successor": [
+			"Emanatus Psalm",
+			"Phosphoenic Psalm"
+		]
+	},
+	{
+		"name": "Electro-haze Psalm",
+		"effect": "+1 sec Blind / Hallucination duration",
+		"predecessor": [
+			"Voltaic Psalm",
+			"Galvanic Psalm"
+		],
+		"successor": [
+			"Phosphoenic Psalm",
+			"Hyper-rad Psalm"
+		]
+	},
+	{
+		"name": "Technomartyr Psalm",
+		"effect": "When struck, gain +20% damage for 2 seconds. Does not stack.",
+		"predecessor": [
+			"Galvanic Psalm",
+			"Iron Psalm"
+		],
+		"successor": [
+			"Hyper-rad Psalm",
+			"Haemo-drain Psalm"
+		]
+	},
+	{
+		"name": "Hypergheist Psalm",
+		"effect": "When struck, gain +20% movement speed for 2 seconds. Does not stack",
+		"predecessor": [
+			"Hermeticon Psalm",
+			"Iron Psalm"
+		],
+		"successor": [
+			"Haemo-drain Psalm",
+			"Uncreator Psalm"
+		]
+	},
+	{
+		"name": "Emanatus Psalm",
+		"effect": "+0.5 sec Stun duration",
+		"predecessor": [
+			"Volkite Psalm",
+			"Volkite Psalm",
+			"Static-burst Psalm",
+			"Static-burst Psalm"
+		],
+		"successor": [
+			"Transonic Psalm",
+			"Nova Psalm"
+		]
+	},
+	{
+		"name": "Phosphoenic Psalm",
+		"effect": "+10% DMG on Ignited enemies",
+		"predecessor": [
+			"Static-burst Psalm",
+			"Static-burst Psalm",
+			"Electro-haze Psalm",
+			"Electro-haze Psalm"
+		],
+		"successor": [
+			"Transonic Psalm",
+			"Animus Psalm"
+		]
+	},
+	{
+		"name": "Hyper-rad Psalm",
+		"effect": "+10% DMG on Poisoned enemies",
+		"predecessor": [
+			"Electro-haze Psalm",
+			"Electro-haze Psalm",
+			"Technomartyr Psalm",
+			"Technomartyr Psalm"
+		],
+		"successor": [
+			"Animus Psalm",
+			"Shroud Psalm"
+		]
+	},
+	{
+		"name": "Haemo-drain Psalm",
+		"effect": "+10% DMG on Bleeding enemies",
+		"predecessor": [
+			"Hypergheist Psalm",
+			"Hypergheist Psalm",
+			"Technomartyr Psalm",
+			"Technomartyr Psalm"
+		],
+		"successor": [
+			"Shroud Psalm",
+			"Binharic Psalm"
+		]
+	},
+	{
+		"name": "Uncreator Psalm",
+		"effect": "Vulnerability bonus increased from 10 to 15%",
+		"predecessor": [
+			"Hypergheist Psalm",
+			"Hypergheist Psalm",
+			"Volkite Psalm",
+			"Volkite Psalm"
+		],
+		"successor": [
+			"Binharic Psalm",
+			"Nova Psalm"
+		]
+	},
+	{
+		"name": "Transonic Psalm",
+		"effect": "+15% DMG to Slowed, Stunned, or Shocked enemies",
+		"predecessor": [
+			"Emanatus Psalm",
+			"Emanatus Psalm",
+			"Emanatus Psalm",
+			"Phosphoenic Psalm",
+			"Phosphoenic Psalm",
+			"Phosphoenic Psalm"
+		],
+		"successor": [
+			"Ordinatus Psalm",
+			"Voltagheist Psalm"
+		]
+	},
+	{
+		"name": "Animus Psalm",
+		"effect": "+15% DMG to Blinded and Hallucinating enemies",
+		"predecessor": [
+			"Phosphoenic Psalm",
+			"Phosphoenic Psalm",
+			"Phosphoenic Psalm",
+			"Hyper-rad Psalm",
+			"Hyper-rad Psalm",
+			"Hyper-rad Psalm"
+		],
+		"successor": [
+			"Ordinatus Psalm",
+			"Icarus Psalm"
+		]
+	},
+	{
+		"name": "Shroud Psalm",
+		"effect": "When struck, gain +5% DMG reduce for 2 seconds. Does not stack.",
+		"predecessor": [
+			"Hyper-rad Psalm",
+			"Hyper-rad Psalm",
+			"Hyper-rad Psalm",
+			"Haemo-drain Psalm",
+			"Haemo-drain Psalm",
+			"Haemo-drain Psalm"
+		],
+		"successor": [
+			"Icarus Psalm",
+			"Neuralis Psalm"
+		]
+	},
+	{
+		"name": "Binharic Psalm",
+		"effect": "+1 sec duration to Psalm-Code effect durations",
+		"predecessor": [
+			"Haemo-drain Psalm",
+			"Haemo-drain Psalm",
+			"Haemo-drain Psalm",
+			"Uncreator Psalm",
+			"Uncreator Psalm",
+			"Uncreator Psalm"
+		],
+		"successor": [
+			"Neuralis Psalm",
+			"Aegis Psalm"
+		]
+	},
+	{
+		"name": "Nova Psalm",
+		"effect": "10% chance to Shock enemies within 3 m when struck",
+		"predecessor": [
+			"Emanatus Psalm",
+			"Emanatus Psalm",
+			"Emanatus Psalm",
+			"Uncreator Psalm",
+			"Uncreator Psalm",
+			"Uncreator Psalm"
+		],
+		"successor": [
+			"Aegis Psalm",
+			"Voltagheist Psalm"
+		]
+	},
+	{
+		"name": "Ordinatus Psalm",
+		"effect": "Reduce the Target's armor by 5% per Hit",
+		"predecessor": [
+			"Transonic Psalm",
+			"Transonic Psalm",
+			"Transonic Psalm",
+			"Transonic Psalm",
+			"Animus Psalm",
+			"Animus Psalm",
+			"Animus Psalm",
+			"Animus Psalm"
+		],
+		"successor": []
+	},
+	{
+		"name": "Icarus Psalm",
+		"effect": "10% chance on kill to Slow enemies within 3 m",
+		"predecessor": [
+			"Animus Psalm",
+			"Animus Psalm",
+			"Animus Psalm",
+			"Animus Psalm",
+			"Shroud Psalm",
+			"Shroud Psalm",
+			"Shroud Psalm",
+			"Shroud Psalm"
+		],
+		"successor": []
+	},
+	{
+		"name": "Neuralis Psalm",
+		"effect": "Gain +1% damage for each hit for 2 sec",
+		"predecessor": [
+			"Shroud Psalm",
+			"Shroud Psalm",
+			"Shroud Psalm",
+			"Shroud Psalm",
+			"Binharic Psalm",
+			"Binharic Psalm",
+			"Binharic Psalm",
+			"Binharic Psalm"
+		],
+		"successor": []
+	},
+	{
+		"name": "Aegis Psalm",
+		"effect": "+10 Energy Shield HP per hit",
+		"predecessor": [
+			"Binharic Psalm",
+			"Binharic Psalm",
+			"Binharic Psalm",
+			"Binharic Psalm",
+			"Nova Psalm",
+			"Nova Psalm",
+			"Nova Psalm",
+			"Nova Psalm"
+		],
+		"successor": []
+	},
+	{
+		"name": "Voltagheist Psalm",
+		"effect": "Increases Damage Reduction soft cap by 1",
+		"predecessor": [
+			"Transonic Psalm",
+			"Transonic Psalm",
+			"Transonic Psalm",
+			"Transonic Psalm",
+			"Nova Psalm",
+			"Nova Psalm",
+			"Nova Psalm",
+			"Nova Psalm"
+		],
+		"successor": []
+	}
+]
